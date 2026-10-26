@@ -1,4 +1,4 @@
-# 📊 U.S. Tariff Exposure and Trade Fairness
+# U.S. Tariff Exposure and Trade Fairness
 
 **Author:** Preet Patel  
 **Course:** Data 101  
@@ -6,7 +6,7 @@
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This project investigates whether the United States is at a disadvantage in global trade due to asymmetric tariff applications. It uses 34 years (1989–2023) of bilateral trade data to analyze the relationship between trade balances and tariff rates, focusing on key partners like **China** and **Canada**.
 
@@ -17,14 +17,14 @@ All data visualization and analysis were done in **base R**, ensuring transparen
 
 ---
 
-## 📁 Datasets Used
+## Datasets Used
 
 - `34_years_world_export_import_dataset.csv` from [Kaggle](https://www.kaggle.com/datasets/muhammadtalhaawan/world-export-and-import-dataset)
 - `DataWeb-Query-Export.xlsx` from [USITC DataWeb](https://dataweb.usitc.gov/trade/search/Export/HTS)
 
 ---
 
-## 📈 Key Visualizations
+## Key Visualizations
 
 - Top 15 countries by average **MFN tariff** on U.S.
 - Top 10 U.S. **trade deficit** partners
@@ -34,7 +34,7 @@ All data visualization and analysis were done in **base R**, ensuring transparen
 
 ---
 
-## 🔬 Statistical Tests Performed
+## Statistical Tests Performed
 
 ### 1. **Bayesian Inference**
 > P(High Tariff | Negative Trade Balance)  
@@ -50,7 +50,7 @@ p-value < **2.2e-16** → Reject H₀ (significant association)
 
 ---
 
-## 🔎 Product-Level Insights
+## Product-Level Insights
 
 The top U.S. exports to China (2023) include:
 - Mineral fuels and oils (e.g., crude oil, petroleum)
@@ -61,18 +61,6 @@ These products are highly valuable but **vulnerable to retaliatory tariffs**, im
 
 ---
 
-## 📂 Repository Structure
-
-```plaintext
-├── README.md
-├── 34_years_world_export_import_dataset.csv
-├── DataWeb-Query-Export.xlsx
-├── Tarifs on USA - Data 101.pdf
-└── test.R                 # Full analysis script with plots + statistical tests
-```
-
----
-
-## 🧠 Conclusion
+## Conclusion
 
 This analysis confirms that the U.S. often faces non-reciprocal tariff rates, especially with countries like China. These imbalances contribute to persistent trade deficits and suggest a need for tariff reform and revised trade agreements.
